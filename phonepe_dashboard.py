@@ -229,7 +229,7 @@ def load_data():
         "aggregated_insurance": pd.read_csv("aggregated_insurance.csv").sort_values(by=["state", "year", "quarter"]),
         "map_transaction": pd.read_csv("map_transaction.csv").sort_values(by=["state", "year", "quarter"]),
         "top_insurance": pd.read_csv("top_insurance.csv").sort_values(by=["state", "year", "quarter"]),
-        "aggregated_transaction_data": pd.read_csv("aggregated_transaction_data.csv").sort_values(by=["state", "year", "quarter"]),
+        "aggregated_transaction_data": pd.read_csv("aggregated_transaction.csv").sort_values(by=["state", "year", "quarter"]),
         "map_user": pd.read_csv("map_user.csv").sort_values(by=["state", "year", "quarter"]),
         "top_transaction": pd.read_csv("top_transaction.csv").sort_values(by=["state", "year", "quarter"]),
         "aggregated_transaction": pd.read_csv("aggregated_transaction.csv").sort_values(by=["state", "year", "quarter"]),
